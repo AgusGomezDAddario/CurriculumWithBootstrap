@@ -137,7 +137,7 @@ h1{
     margin: 5px;
 }
 
-/*Proyectos*/
+/*Seccion de Proyectos*/
 .proyectos-recientes{
     padding: 40px;
 }
@@ -194,6 +194,21 @@ h1{
     margin: 10px;
 }
 
+/*Seccion de Articulos*/
+.articulos{
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articulos .card{
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articulos .card-header{
+    font-weight: bold;
+}
 /*Adaptable*/
 @media screen and (max-width: 400px) {
     .overlay p{
