@@ -67,7 +67,10 @@
                 <h2 class="seccion-titulo texto-blanco">Conoce mejor a Agustín</h2>
                 <p class="seccion-texto">Cuento con experiencia en la realización de proyectos en equipos, con una clara división de tareas y fundamentando el compañerismo.
                     Soy constante y organizado para la realización de mis tareas. Busco proyectos que sumen a mi experiencia en el mundo laboral.</p>
-            </div>
+                <a href="https://drive.google.com/file/d/1bjODKaeX3l5oImQKrjserEYJvj5NFZvy/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-light">Más Información</button>
+                </a>
+                </div>
         </section>
         <!-- Seccion Experiencia -->
         <section class="experiencia seccion-clara">
@@ -171,7 +174,7 @@
                         </div>
                     </div>
                     <!-- Proyecto 4 -->
-                    <div class="col-4 col-md-6 col-lg-4 proyecto-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="proyecto">
                             <img src="images/drupal.jpg" alt="Proyecto 1">
                             <div class="overlay">
@@ -267,57 +270,66 @@
             <h2 class="seccion-titulo">Conocimientos</h2>
             <h3 class="seccion-descripcion">Estas son algunas de las herramientas que utilizo en mis proyectos</h3>
         <!-- Carrusel -->
-        <div id="conocimientos-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div id="conocimientos-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="container">
-                    <img class="conocimiento-imagen rounded-circle" src="images/cliente1.svg" alt="Foto de Cliente 1">
-                    <p class="conocimiento-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                    <div class="conocimiento-info">
-                        <p class="herramienta">Drupal</p>
-                        <p class="descripcion">Herramienta usada en el Proyecto del Sitio Web para la carrera Ingeniería en Sistemas - UTN</p>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container">
-                    <img class="conocimiento-imagen rounded-circle" src="images/cliente2.svg" alt="Foto de Cliente 2">
-                    <p class="conocimiento-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                    <div class="conocimiento-info">
-                        <p class="herramienta">React</p>
-                        <p class="descripcion">Herramienta usada en el Proyecto del Sitio Web del médico en Memorium</p>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container">
-                    <img class="conocimiento-imagen rounded-circle" src="images/cliente3.svg" alt="Foto de Cliente 3">
-                    <p class="conocimiento-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                    <div class="conocimiento-info">
-                        <p class="herramienta">React Native</p>
-                        <p class="descripcion">Herramienta usada en el Proyecto de la Aplicación en Memorium</p>
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="conocimiento-info">
+                            <p class="herramienta">Drupal</p>
+                        </div>
+                        <img class="conocimiento-imagen rounded-circle" src="images/ico-drupal.png" alt="Foto de Cliente 1">
+                        <p class="conocimiento-texto">Es una plataforma de código abierto que se emplea para constuir sitios web dinámicos. Además, permite la gestión de contenidos y personalización mediante módulos.</p>
+                        <div class="conocimiento-info">
+                            <p class="descripcion">Herramienta usada en el Proyecto del Sitio Web para la carrera Ingeniería en Sistemas</p>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container">
-                        <img class="conocimiento-imagen rounded-circle" src="images/cliente2.svg" alt="Foto de Cliente 2">
-                        <p class="conocimiento-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                        <div class="conocimiento-info">
+                            <p class="herramienta">React</p>
+                        </div>
+                        <img class="conocimiento-imagen rounded-circle" src="images/ico-react.png" alt="Foto de Cliente 2">
+                        <p class="conocimiento-texto">Es una biblioteca de JavaScript que se emplea para crear interfaces de usuario en la web. Además, facilita la creación de componentes reutilizables y actualización dinámica.</p>
+                        <div class="conocimiento-info">
+                            <p class="descripcion">Herramienta usada en el Proyecto del Sitio Web del médico en Memorium</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="conocimiento-info">
+                            <p class="herramienta">React Native</p>
+                        </div>
+                        <img class="conocimiento-imagen rounded-circle" src="images/ico-react-native.png" alt="Foto de Cliente 3">
+                        <p class="conocimiento-texto">Es una biblioteca usada para desarrollar aplicaciones móviles en Android e iOS. Permite compartir código entre ambas plataformas y utiliza componentes nativos en todo tipo de dispositivos.</p>
+                        <div class="conocimiento-info">
+                            <p class="descripcion">Herramienta usada en el Proyecto de la Aplicación en Memorium</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
                         <div class="conocimiento-info">
                             <p class="herramienta">Arduino</p>
+                        </div>
+                        <img class="conocimiento-imagen rounded-circle" src="images/ico-arduino.png" alt="Foto de Cliente 2">
+                        <p class="conocimiento-texto">Es una plataforma de prototipado electrónivo de código abierto que permite crear objetos electrónicos interactivos con lenguaje C/C+. Actúa controlando las placas Arduino, cuyo uso es muy amplio en la industria.</p>
+                        <div class="conocimiento-info">
                             <p class="descripcion">Herramienta usada en el Proyecto Mano Robótica en el laboratorio Codapli</p>
                         </div>
                     </div>
-              </div>
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#conocimientos-carrusel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#conocimientos-carrusel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Siguiete</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
             </button>
-          </div>
+        </div>
         </section>
         <!-- Seccion Contacto -->
         <section id="contacto" class="contacto seccion-oscura">
