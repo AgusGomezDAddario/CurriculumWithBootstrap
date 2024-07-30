@@ -205,7 +205,7 @@ h1{
 
 /*Seccion de Articulos*/
 .articulos{
-    min-height: 500px;
+    min-height: 100px;
     padding: 30px;
 }
 
