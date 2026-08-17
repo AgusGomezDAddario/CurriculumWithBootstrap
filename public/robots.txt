@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://curriculum-with-bootstrap.vercel.app/sitemap.xml

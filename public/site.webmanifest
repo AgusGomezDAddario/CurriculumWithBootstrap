@@ -1,0 +1,9 @@
+{
+  "name": "Agustín Gomez D'Addario — Portfolio",
+  "short_name": "Agustín GD",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f7f2",
+  "theme_color": "#2457ff",
+  "icons": [{ "src": "/images/favicon.png", "sizes": "500x500", "type": "image/png" }]
+}
